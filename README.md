@@ -16,8 +16,7 @@ This project includes **professional notebooks** that combine storytelling with 
 - **[notebooks/EDA.ipynb](notebooks/EDA.ipynb)**: Exploratory Data Analysis with narrative, visualizations guided by business questions, and explanation of preprocessing decisions.
 - **[notebooks/Modeling_Report.ipynb](notebooks/02_Modeling_Report.ipynb)**: Comprehensive technical report with end-to-end pipeline, model comparison, residual analysis, and metrics evaluation.
 
-## Project Structure
-
+Project Structure
 ProyectoML/
 │
 ├── data/
@@ -41,12 +40,15 @@ ProyectoML/
 │   └── utils.py                     # Utility functions
 │
 ├── tests/                           # Test suite with pytest
+│   ├── test_data_preprocessing.py   # Tests for data cleaning and transformation
+│   ├── test_evaluate.py             # Tests for metrics calculation and validation
+│   └── test_train_model.py          # Tests for model training pipeline
 │
 ├── main.py                          # Main script that coordinates everything
 ├── requirements.txt                 # Required libraries
 └── README.md                        # This file
 
-## Installation and Usage
+Installation and Usage
 
 ### 1. Clone the repository
 ```bash
