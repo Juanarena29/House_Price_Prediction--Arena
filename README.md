@@ -17,6 +17,7 @@ This project includes **professional notebooks** that combine storytelling with 
 - **[notebooks/Modeling_Report.ipynb](notebooks/02_Modeling_Report.ipynb)**: Comprehensive technical report with end-to-end pipeline, model comparison, residual analysis, and metrics evaluation.
 
 Project Structure
+```
 ProyectoML/
 │
 ├── data/
@@ -47,8 +48,9 @@ ProyectoML/
 ├── main.py                          # Main script that coordinates everything
 ├── requirements.txt                 # Required libraries
 └── README.md                        # This file
+```
 
-Installation and Usage
+## Installation and Usage
 
 ### 1. Clone the repository
 ```bash
